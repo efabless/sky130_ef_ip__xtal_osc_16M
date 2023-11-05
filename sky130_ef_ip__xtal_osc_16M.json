@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "sky130_ef_ip__xtal_osc_16M",
+        "description": "High speed crystal oscillator",
+        "repo": "github.com/efabless/sky130_ef_ip__xtal_osc_16M",
+        "owner": "Efabless Corp.",
+        "license": "APACHE 2.0",
+        "author": "Tim Edwards",
+        "email": "tim@efabless.com",
+        "version": "v1.0.0",
+        "date": "1-11-2023",
+        "category": "analog",
+        "tags": [
+            "crystal oscillator",
+            "high speed"
+        ],
+        "bus": [
+            "n/a"
+        ],
+        "type": "hard",
+        "status": "verified",
+        "cell_count": "n/a",
+        "width": "54.635",
+        "height": "28.48",
+        "technology": "sky130",
+        "clock_freq_mhz": "16",
+        "supply_voltage": [
+            "1.8"
+        ]
+    }
+}
