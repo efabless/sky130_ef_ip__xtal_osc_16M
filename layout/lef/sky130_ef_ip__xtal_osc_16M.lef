@@ -6,7 +6,7 @@ MACRO sky130_ef_ip__xtal_osc_16M
   CLASS BLOCK ;
   FOREIGN sky130_ef_ip__xtal_osc_16M ;
   ORIGIN -12.300 12.200 ;
-  SIZE 54.630 BY 28.480 ;
+  SIZE 54.640 BY 28.480 ;
   PIN in
     ANTENNAGATEAREA 0.420000 ;
     ANTENNADIFFAREA 0.526800 ;
@@ -25,28 +25,28 @@ MACRO sky130_ef_ip__xtal_osc_16M
     ANTENNADIFFAREA 98.890800 ;
     PORT
       LAYER met2 ;
-        RECT 12.300 7.935 12.925 16.075 ;
+        RECT 12.300 7.935 13.000 16.075 ;
     END
   END avdd
   PIN avss
-    ANTENNADIFFAREA 87.223801 ;
+    ANTENNADIFFAREA 81.684601 ;
     PORT
       LAYER met2 ;
-        RECT 12.300 -12.075 16.865 -3.950 ;
+        RECT 12.300 -12.075 17.005 -3.950 ;
     END
   END avss
   PIN dvdd
     ANTENNADIFFAREA 4.959600 ;
     PORT
       LAYER met2 ;
-        RECT 65.915 2.090 66.930 5.950 ;
+        RECT 65.855 2.090 66.930 5.950 ;
     END
   END dvdd
   PIN dvss
     ANTENNADIFFAREA 21.305099 ;
     PORT
       LAYER met1 ;
-        RECT 65.695 -11.740 66.820 -6.920 ;
+        RECT 65.620 -11.740 66.820 -6.920 ;
     END
   END dvss
   PIN ena
@@ -89,13 +89,13 @@ MACRO sky130_ef_ip__xtal_osc_16M
         RECT 13.580 -3.890 64.690 -3.530 ;
         RECT 12.830 -5.090 64.690 -3.890 ;
         RECT 12.830 -6.640 66.930 -5.090 ;
-        RECT 12.830 -11.780 65.415 -6.640 ;
+        RECT 12.830 -11.780 65.340 -6.640 ;
       LAYER met2 ;
-        RECT 13.205 7.655 65.985 16.085 ;
-        RECT 12.925 6.230 65.985 7.655 ;
-        RECT 12.925 1.810 65.635 6.230 ;
-        RECT 12.925 -3.670 65.985 1.810 ;
-        RECT 17.145 -12.075 65.985 -3.670 ;
+        RECT 13.280 7.655 65.985 16.085 ;
+        RECT 13.000 6.230 65.985 7.655 ;
+        RECT 13.000 1.810 65.575 6.230 ;
+        RECT 13.000 -3.670 65.985 1.810 ;
+        RECT 17.285 -12.075 65.985 -3.670 ;
   END
 END sky130_ef_ip__xtal_osc_16M
 END LIBRARY
